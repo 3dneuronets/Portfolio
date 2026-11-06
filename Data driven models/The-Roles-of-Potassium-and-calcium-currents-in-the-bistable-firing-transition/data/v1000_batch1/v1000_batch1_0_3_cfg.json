@@ -1,0 +1,144 @@
+{
+    "simConfig": {
+        "IClamp0": {
+            "amp": 0.14,
+            "dur": 5000,
+            "loc": 0.5,
+            "pop": "pop_sPY",
+            "sec": "soma",
+            "start": 0
+        },
+        "addIClamp": 1,
+        "addSynMechs": true,
+        "allcells": [
+            "sPY"
+        ],
+        "allowConnsWithWeight0": true,
+        "allowSelfConns": false,
+        "allpops": [
+            "pop_sPY"
+        ],
+        "analysis": {
+            "plotRaster": {
+                "dpi": 300,
+                "figSize": [
+                    24,
+                    12
+                ],
+                "include": [
+                    "pop_sPY"
+                ],
+                "lw": 0.3,
+                "marker": ".",
+                "markerSize": 10,
+                "orderInverse": true,
+                "popRates": false,
+                "saveFig": true,
+                "showFig": false,
+                "timeRange": [
+                    0,
+                    5000.0
+                ]
+            },
+            "plotTraces": {
+                "axis": false,
+                "figSize": [
+                    36,
+                    24
+                ],
+                "fontSize": 2,
+                "include": [
+                    "pop_sPY"
+                ],
+                "legend": false,
+                "oneFigPer": "trace",
+                "overlay": false,
+                "saveFig": true,
+                "showFig": false,
+                "subtitles": false
+            }
+        },
+        "backupCfgFile": null,
+        "cache_efficient": true,
+        "cellNumber": 100,
+        "checkErrors": false,
+        "compactConnFormat": false,
+        "connRandomSecFromList": true,
+        "coreneuron": false,
+        "createNEURONObj": true,
+        "createPyStruct": true,
+        "cvode_active": false,
+        "cvode_atol": 1e-06,
+        "distributeSynsUniformly": true,
+        "dt": 0.01,
+        "dump_coreneuron_model": false,
+        "duration": 5000.0,
+        "filename": "model_output",
+        "gatherOnlySimData": false,
+        "gex": 0.0005,
+        "gpu": false,
+        "hParams": {
+            "celsius": 34,
+            "v_init": -65
+        },
+        "includeParamsLabel": false,
+        "invertedYCoord": true,
+        "oneSynPerNetcon": true,
+        "printPopAvgRates": true,
+        "printRunTime": 0.5,
+        "printSynsAfterRule": false,
+        "pt3dRelativeToCellLocation": true,
+        "rand123GlobalIndex": null,
+        "random123": false,
+        "recordCells": [
+            "pop_sPY"
+        ],
+        "recordCellsSpikes": -1,
+        "recordDipole": false,
+        "recordDipolesHNN": false,
+        "recordLFP": [],
+        "recordStep": 0.1,
+        "recordStim": true,
+        "recordTime": true,
+        "recordTraces": {
+            "V_soma": {
+                "loc": 0.5,
+                "sec": "soma_0",
+                "var": "v"
+            }
+        },
+        "saveCSV": false,
+        "saveCellConns": true,
+        "saveCellSecs": false,
+        "saveDat": false,
+        "saveDataInclude": [
+            "simConfig",
+            "netParams",
+            "simData"
+        ],
+        "saveDipoleCells": false,
+        "saveDipolePops": false,
+        "saveDpk": false,
+        "saveFolder": "../data/v1000_batch1",
+        "saveHDF5": false,
+        "saveJson": false,
+        "saveLFPCells": false,
+        "saveLFPPops": false,
+        "saveMat": false,
+        "savePickle": true,
+        "saveTiming": false,
+        "seeds": {
+            "cell": 1,
+            "conn": 1,
+            "loc": 1,
+            "stim": 1
+        },
+        "simLabel": "v1000_batch1_0_3",
+        "timestampFilename": false,
+        "timing": true,
+        "tstop": 1000.0,
+        "use_fast_imem": false,
+        "validateNetParams": false,
+        "verbose": false
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "batch": {
+        "batchLabel": "v1000_batch1",
+        "cfgFile": "cfg.py",
+        "evolCfg": {
+            "fitnessFunc": "removed"
+        },
+        "initCfg": {},
+        "method": "grid",
+        "netParamsFile": "netParams.py",
+        "params": [
+            {
+                "label": "gex",
+                "values": [
+                    0.0005,
+                    0.001,
+                    0.0015,
+                    0.002
+                ]
+            },
+            {
+                "label": [
+                    "IClamp0",
+                    "amp"
+                ],
+                "values": [
+                    0.08,
+                    0.1,
+                    0.12,
+                    0.14
+                ]
+            }
+        ],
+        "runCfg": {
+            "script": "init.py",
+            "skip": true,
+            "type": "mpi_bulletin"
+        },
+        "saveFolder": "../data/v1000_batch1",
+        "seed": null
+    }
+}
