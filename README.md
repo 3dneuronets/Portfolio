@@ -4,11 +4,13 @@
 
 # Computational Neuroscience & Data-Driven Brain Modeling
 
-**From experimental neural data to customizable computational models of brain function.**
+**From experimental neural data to quantitative insights and biologically informed brain simulations.**
 
-3D NeuroNets develops tailored computational solutions for neuroscience research, combining advanced electrophysiological analysis, human and animal connectomics, biophysical neuronal modeling, and large-scale network simulations.
+3D NeuroNets develops tailored computational solutions for neuroscience research, combining advanced electrophysiological analysis, neural connectomics, biophysical neuronal modeling, and large-scale network simulations.
 
-Our expertise connects experimental measurements with computational approaches, enabling researchers to extract meaningful information from complex datasets, reconstruct biologically informed neural circuits, investigate network mechanisms, and explore new scientific hypotheses.
+Our expertise enables researchers to extract meaningful information from complex experimental datasets, reconstruct biologically informed neural circuits, investigate cellular and network mechanisms, and explore scientific hypotheses through computational experiments.
+
+**From standalone data-analysis projects to integrated experimental–computational studies**, we provide flexible research solutions supported by peer-reviewed publications, scientific software development, and interdisciplinary neuroscience expertise.
 
 **Explore our capabilities in Neural Data Analysis and Data-Driven Modeling**, supported by published research, computational implementations, and interdisciplinary neuroscience expertise.
 
