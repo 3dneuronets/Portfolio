@@ -1,0 +1,167 @@
+# =============================================================================
+# cfg.py  —  SimConfig for L23Net NetPyNE Replica (Yao et al. 2022)
+# =============================================================================
+import sys
+import pandas as pd
+from netpyne import specs
+
+cfg = specs.SimConfig()
+
+# ---------------------------------------------------------------------------
+# Identity / I/O
+# ---------------------------------------------------------------------------
+cfg.simLabel = 'v0_batch1'       #   + str(cfg.cynradNumber)
+cfg.saveFolder = '../data/'+cfg.simLabel
+cfg.savePickle  = False
+cfg.saveJson    = True
+
+cfg.saveDataInclude = ['simData'] #, 'simConfig', 'netParams', 'netParams']
+cfg.backupCfgFile = None 		##  
+cfg.gatherOnlySimData = False	##  
+cfg.saveCellSecs = False			##  
+cfg.saveCellConns = False		##  
+
+cfg.verbose = False
+cfg.hParams = {'celsius': 34, 'v_init': -80}  
+cfg.verbose = False
+cfg.createNEURONObj = True
+cfg.createPyStruct = True
+cfg.cvode_active = False
+cfg.cvode_atol = 1e-6
+cfg.cache_efficient = True
+cfg.printRunTime = 0.5
+
+cfg.includeParamsLabel = False
+cfg.printPopAvgRates = True
+cfg.checkErrors = False
+
+# ---------------------------------------------------------------------------
+# Simulation timing
+# ---------------------------------------------------------------------------
+cfg.duration = 4000.0    # ms
+cfg.dt       = 0.025     # ms  (40 kHz)
+
+# ---------------------------------------------------------------------------
+# Random seeds
+# ---------------------------------------------------------------------------
+cfg.seeds = {'conn':  1234, 'stim':  1234, 'loc': 1234, 'cell':  1234}
+cfg.GLOBALSEED = 1234
+cfg.DRUG = False
+
+# ---------------------------------------------------------------------------
+# LFP recording electrode (only used when cfg.rec_LFP = True)
+# ---------------------------------------------------------------------------
+# cfg.recordLFP = [[0.0, 0.0, 5.0]]
+
+# ---------------------------------------------------------------------------
+# Recording — one soma trace per population
+# GID layout (full run): PYR 0-799, SST 800-849, PV 850-919, VIP 920-999
+# ---------------------------------------------------------------------------
+
+
+circuit_params = pd.read_excel('Circuit_param.xls', sheet_name = None, index_col = 0)
+N_HL23PYR = int(circuit_params['SING_CELL_PARAM'].at['cell_num','HL23PYR'])
+N_HL23SST = int(circuit_params['SING_CELL_PARAM'].at['cell_num','HL23SST'])
+N_HL23PV = int(circuit_params['SING_CELL_PARAM'].at['cell_num','HL23PV'])
+N_HL23VIP = int(circuit_params['SING_CELL_PARAM'].at['cell_num','HL23VIP'])
+
+N_cells = N_HL23PYR + N_HL23SST + N_HL23PV + N_HL23VIP
+
+cell_indices_to_plot = [0, 1, 
+                        N_HL23PYR, N_HL23PYR + 1, 
+                        N_HL23PYR + N_HL23SST, N_HL23PYR + N_HL23SST + 1, 
+                        N_HL23PYR + N_HL23SST + N_HL23PV, N_HL23PYR + N_HL23SST + N_HL23PV + 1]
+# cell_indices_to_plot = []
+# for j in range(10):
+#    cell_indices_to_plot = cell_indices_to_plot + [20 + j, 
+#                         N_HL23PYR + j, 
+#                         N_HL23PYR + N_HL23SST + j, 
+#                         N_HL23PYR + N_HL23SST + N_HL23PV + j]
+    
+# cell_indices_to_plot = range(0,N_cells)
+
+cfg.recordCells  = cell_indices_to_plot
+cfg.recordTraces = {'V_soma': {'sec': 'soma_0', 'loc': 0.5, 'var': 'v'}}
+
+cfg.cellNumber = {}
+cfg.cellNumber['HL23PYR'] = N_HL23PYR
+cfg.cellNumber['HL23SST'] = N_HL23SST
+cfg.cellNumber['HL23PV'] = N_HL23PV
+cfg.cellNumber['HL23VIP'] = N_HL23VIP
+
+cfg.cellNumber0 = {}
+cfg.cellNumber0['HL23PYR'] = 0
+cfg.cellNumber0['HL23SST'] = N_HL23PYR
+cfg.cellNumber0['HL23PV'] = N_HL23PYR + N_HL23SST
+cfg.cellNumber0['HL23VIP'] = N_HL23PYR + N_HL23SST + N_HL23PV
+
+cfg.invertedYCoord = False
+cfg.ROTATE_Y = True
+cfg.Change_axon_names = True
+
+#------------------------------------------------------------------------------
+# Analysis and plotting 
+# ------------------------------------------------------------------------------
+
+Ipops = ['HL23SST', 'HL23PV', 'HL23VIP']
+Epops = ['HL23PYR']
+
+cfg.allpops = Epops + Ipops
+
+cfg.recordStep = cfg.dt    # record every time step
+
+cfg.analysis['plotRaster'] = {'include':  cfg.allpops, 'saveFig': True, 'showFig': False,'orderInverse': True, 'timeRange': [0,cfg.duration], 'figSize': (12,6), 'fontSize':4, 'markerSize':4, 'marker': 'o', 'dpi': 300} 
+# cfg.analysis['plot2Dnet']   = {'include':  cfg.allpops, 'saveFig': True, 'showConns': False, 'figSize': (15,15), 'view': 'xy', 'fontSize':16}   # Plot 2D cells xy
+cfg.analysis['plotTraces'] = {'include': cfg.recordCells, 'oneFigPer': 'trace', 'axis': False, 'overlay': False, 'timeRange': [0,cfg.duration], 
+                              'saveFig': True, 'subtitles': None, 'legend': None, 'showFig': False, 'figSize':(18,18)}
+# , 'ylim': [-85,40]
+# cfg.analysis['plotTraces'] = {'oneFigPer': 'trace', 'overlay': True, 'timeRange': [0,cfg.duration], 'saveFig': True, 'showFig': False, 'figSize':(12,4)} # , 'ylim': [-90,30] Plot recorded traces for this list of cells
+# cfg.analysis['plotShape'] = {'includePre':  cfg.allpops,'includePost': cfg.allpops, #  [0, 200, 600, 800, 850, 920]
+#                              'includeAxon': False, 'showSyns': False, 'showElectrodes': False,
+#                                 'cvar': 'voltage', 'dist': 0.65, 'elev': 95, 'azim':-90, 
+#                                 'axisLabels':True, 'synStyle':'o', 
+#                                 'clim': [-70, -40.], 'showFig': False, 'synSize': 2,                             
+#                                 'saveFig': True, 'figSize':(24,24)}
+
+# cfg.analysis['plotConn'] = {'includePre': cfg.allpops, 'includePost': cfg.allpops, 'feature': 'numConns', 'groupBy': 'pop', 'figSize': (24,24), 
+#                             'saveFig': True, 'orderBy': 'gid', 'graphType': 'matrix', 'saveData':'v1_batch1_matrix_numConn.json', 'fontSize': 18}
+
+
+#------------------------------------------------------------------------------
+# General network parameters
+#------------------------------------------------------------------------------
+cfg.scale = 1.0 # reduce size
+cfg.sizeY = 3300.0
+cfg.sizeX = 500.0 # r = 250 um 
+cfg.sizeZ = 500.0
+
+#------------------------------------------------------------------------------
+# Current inputs (SinClamp) addInternalStimulation
+#------------------------------------------------------------------------------
+
+cfg.SinClamp = True
+
+cfg.SinClamp_params = {'bias_Stim': -0.05,   # stim in nA -> [-0.05, 0.0, 0.05]
+                        'pkamp_Stim': 0.25,   # peak in nA -> [0.0, 0.05, 0.1, 0.15, 0.1, 0.2, 0.25],
+                        'freq_Stim': 5.0,     # freq senoidal in Hz -> [1.O, 2.0, 4.0, 8.0, 16.0, 32.0, 64.0],
+                        }
+
+#------------------------------------------------------------------------------
+# addExternalStimulation
+#------------------------------------------------------------------------------
+
+cfg.addExternalStimulation = False
+
+# The parameters of the extracellular point current source
+cfg.acs_params = {'position': [0.0, 0.0, 0.0],  # um # y = [pia, bone]
+              'amp': 500.,  # uA,
+              'stimstart': 0.0,  # ms
+              'stimend': cfg.duration,  # ms
+              'frequency': 2.0,  # Hz
+              'sigma': 0.57  # decay constant S/m
+              }
+
+#------------------------------------------------------------------------------
+# BACKGROUND
+#------------------------------------------------------------------------------
+cfg.BACKGROUND  = False

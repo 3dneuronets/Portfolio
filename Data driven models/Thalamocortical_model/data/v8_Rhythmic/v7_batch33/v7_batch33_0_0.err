@@ -1,293 +1,0 @@
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-/home/fernando/miniconda3/envs/p39/bin/nrniv:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  from pkg_resources import working_set
-NEURON -- VERSION 8.2.6 HEAD (078a34a9d) 2024-07-24
-Duke, Yale, and the BlueBrain Project -- Copyright 1984-2022
-See http://neuron.yale.edu/neuron/credits
-
-Additional mechanisms from files
- "mod//ar_traub.mod" "mod//cadad.mod" "mod//CaDynamics_E2.mod" "mod//cadyn.mod" "mod//cagk.mod" "mod//Ca_HVA.mod" "mod//cal_mh.mod" "mod//cal_mig.mod" "mod//Ca_LVAst.mod" "mod//Ca.mod" "mod//cancr.mod" "mod//canin.mod" "mod//can_mig.mod" "mod//catcb.mod" "mod//cat_mig.mod" "mod//cat_traub.mod" "mod//ch_CavL.mod" "mod//ch_CavN.mod" "mod//ch_KCaS.mod" "mod//ch_Kdrfastngf.mod" "mod//ch_KvAngf.mod" "mod//ch_KvCaB.mod" "mod//ch_leak.mod" "mod//ch_Navngf.mod" "mod//DetAMPANMDA.mod" "mod//DetGABAAB.mod" "mod//gabab.mod" "mod//h_BS.mod" "mod//HCN1.mod" "mod//HH2.mod" "mod//h_harnett.mod" "mod//hin.mod" "mod//h_kole.mod" "mod//h_migliore.mod" "mod//htc.mod" "mod//ican_sidi.mod" "mod//iccr.mod" "mod//IC.mod" "mod//iconc_Ca.mod" "mod//Ih.mod" "mod//ikscr.mod" "mod//IKsin.mod" "mod//Im.mod" "mod//IT2.mod" "mod//IT.mod" "mod//kap_BS.mod" "mod//kapcb.mod" "mod//kapin.mod" "mod//kBK.mod" "mod//kca.mod" "mod//kctin.mod" "mod//kdmc_BS.mod" "mod//kdr_BS.mod" "mod//kdrcr.mod" "mod//kdrin.mod" "mod//KdShu2007.mod" "mod//kl.mod" "mod//km.mod" "mod//K_Pst.mod" "mod//K_Tst.mod" "mod//kv.mod" "mod//MyExp2SynBB.mod" "mod//my_exp2syn.mod" "mod//MyExp2SynNMDABB.mod" "mod//nafcr.mod" "mod//nafx.mod" "mod//Nap_Et2.mod" "mod//nap_sidi.mod" "mod//NaTa_t.mod" "mod//NaTs2_t.mod" "mod//nax_BS.mod" "mod//naz.mod" "mod//Nca.mod" "mod//ProbAMPANMDA_EMS.mod" "mod//ProbGABAAB_EMS.mod" "mod//savedist.mod" "mod//SK_E2.mod" "mod//SKv3_1.mod" "mod//StochKv_deterministic.mod" "mod//StochKv.mod" "mod//tia.mod" "mod//vecstim.mod"
-
-
-Creating network of 11 cell populations on 12 hosts...:   0%|          |[A
-
-Creating network of 11 cell populations on 12 hosts...:  45%|####5     |[A
-
-Creating network of 11 cell populations on 12 hosts...:  73%|#######2  |[A
-
-Creating network of 11 cell populations on 12 hosts...: 100%|##########|[A
-Creating network of 11 cell populations on 12 hosts...: 100%|##########|
-  II_L5_SBC_L5_SBC:   0%|          | Creating synaptic connections for 0/3 postsynaptic cells on node 0 (probabilistic connectivity)  II_L5_SBC_L5_SBC: 100%|##########| Creating synaptic connections for 3/3 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L5_SBC_L5_TTPC2:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L5_SBC_L5_TTPC2: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L5_SBC_L5_TTPC2_B:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L5_SBC_L5_TTPC2_B: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L5_SBC_L5_TTPC2_C:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L5_SBC_L5_TTPC2_C: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L5_SBC_L6_TPC_L4:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L5_SBC_L6_TPC_L4: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L5_SBC_L6_TPC_L4_B:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L5_SBC_L6_TPC_L4_B: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L5_SBC_L6_TPC_L4_C:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L5_SBC_L6_TPC_L4_C: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  II_L6_SBC_L6_SBC:   0%|          | Creating synaptic connections for 0/3 postsynaptic cells on node 0 (probabilistic connectivity)  II_L6_SBC_L6_SBC: 100%|##########| Creating synaptic connections for 3/3 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L6_SBC_L5_TTPC2:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L6_SBC_L5_TTPC2: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L6_SBC_L5_TTPC2_B:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L6_SBC_L5_TTPC2_B: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L6_SBC_L5_TTPC2_C:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L6_SBC_L5_TTPC2_C: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L6_SBC_L6_TPC_L4:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L6_SBC_L6_TPC_L4: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L6_SBC_L6_TPC_L4_B:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L6_SBC_L6_TPC_L4_B: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  IE_L6_SBC_L6_TPC_L4_C:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  IE_L6_SBC_L6_TPC_L4_C: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  EI_L5_TTPC2_L5_SBC:   0%|          | Creating synaptic connections for 0/3 postsynaptic cells on node 0 (probabilistic connectivity)  EI_L5_TTPC2_L5_SBC: 100%|##########| Creating synaptic connections for 3/3 postsynaptic cells on node 0 (probabilistic connectivity)
-  EI_L5_TTPC2_L6_SBC:   0%|          | Creating synaptic connections for 0/3 postsynaptic cells on node 0 (probabilistic connectivity)  EI_L5_TTPC2_L6_SBC: 100%|##########| Creating synaptic connections for 3/3 postsynaptic cells on node 0 (probabilistic connectivity)
-  EE_L5_TTPC2_L5_TTPC2:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  EE_L5_TTPC2_L5_TTPC2: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  EE_L5_TTPC2_L6_TPC_L4:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  EE_L5_TTPC2_L6_TPC_L4: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  EI_L6_TPC_L4_L5_SBC:   0%|          | Creating synaptic connections for 0/3 postsynaptic cells on node 0 (probabilistic connectivity)  EI_L6_TPC_L4_L5_SBC: 100%|##########| Creating synaptic connections for 3/3 postsynaptic cells on node 0 (probabilistic connectivity)
-  EI_L6_TPC_L4_L6_SBC:   0%|          | Creating synaptic connections for 0/3 postsynaptic cells on node 0 (probabilistic connectivity)  EI_L6_TPC_L4_L6_SBC: 100%|##########| Creating synaptic connections for 3/3 postsynaptic cells on node 0 (probabilistic connectivity)
-  EE_L6_TPC_L4_L5_TTPC2:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  EE_L6_TPC_L4_L5_TTPC2: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  EE_L6_TPC_L4_L6_TPC_L4:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  EE_L6_TPC_L4_L6_TPC_L4: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_ss_RTN_m_ss_RTN_m:   0%|          | Creating synaptic connections for 0/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_ss_RTN_m:   0%|          | Creating synaptic connections for 1/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_ss_RTN_m:   1%|1         | Creating synaptic connections for 10/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_ss_RTN_m:   2%|2         | Creating synaptic connections for 18/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_ss_RTN_m:   4%|3         | Creating synaptic connections for 28/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_ss_RTN_m:   5%|4         | Creating synaptic connections for 36/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_ss_RTN_m:   6%|5         | Creating synaptic connections for 43/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_ss_RTN_m:   7%|6         | Creating synaptic connections for 50/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_ss_RTN_m:   8%|7         | Creating synaptic connections for 57/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_ss_RTN_m: 100%|##########| Creating synaptic connections for 748/748 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_VPM_sTC_ss_RTN_m:   0%|          | Creating synaptic connections for 0/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   0%|          | Creating synaptic connections for 1/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   1%|1         | Creating synaptic connections for 8/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   2%|2         | Creating synaptic connections for 15/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   3%|2         | Creating synaptic connections for 22/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   4%|3         | Creating synaptic connections for 29/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   5%|4         | Creating synaptic connections for 36/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   6%|5         | Creating synaptic connections for 42/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   7%|6         | Creating synaptic connections for 49/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   7%|7         | Creating synaptic connections for 56/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m:   8%|8         | Creating synaptic connections for 63/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_ss_RTN_m: 100%|##########| Creating synaptic connections for 748/748 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_ss_RTN_m_VPM_sTC:   0%|          | Creating synaptic connections for 0/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC:   0%|          | Creating synaptic connections for 1/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC:   1%|          | Creating synaptic connections for 16/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC:   2%|2         | Creating synaptic connections for 33/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC:   3%|2         | Creating synaptic connections for 49/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC:   4%|4         | Creating synaptic connections for 66/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC:   5%|5         | Creating synaptic connections for 84/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC:   6%|6         | Creating synaptic connections for 102/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC:   7%|7         | Creating synaptic connections for 118/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC:   8%|8         | Creating synaptic connections for 133/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_ss_RTN_m_VPM_sTC: 100%|##########| Creating synaptic connections for 1644/1644 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_VPM_sTC_L5_TTPC2:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_L5_TTPC2: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_VPM_sTC_L6_TPC_L4:   0%|          | Creating synaptic connections for 0/1 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_L6_TPC_L4: 100%|##########| Creating synaptic connections for 1/1 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_VPM_sTC_L5_SBC:   0%|          | Creating synaptic connections for 0/3 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_L5_SBC: 100%|##########| Creating synaptic connections for 3/3 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_VPM_sTC_L6_SBC:   0%|          | Creating synaptic connections for 0/3 postsynaptic cells on node 0 (probabilistic connectivity)  thal_VPM_sTC_L6_SBC: 100%|##########| Creating synaptic connections for 3/3 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_L5_TTPC2_ss_RTN_m:   0%|          | Creating synaptic connections for 0/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_L5_TTPC2_ss_RTN_m: 100%|##########| Creating synaptic connections for 748/748 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_L6_TPC_L4_ss_RTN_m:   0%|          | Creating synaptic connections for 0/748 postsynaptic cells on node 0 (probabilistic connectivity)  thal_L6_TPC_L4_ss_RTN_m: 100%|##########| Creating synaptic connections for 748/748 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_L5_TTPC2_VPM_sTC:   0%|          | Creating synaptic connections for 0/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_L5_TTPC2_VPM_sTC: 100%|##########| Creating synaptic connections for 1644/1644 postsynaptic cells on node 0 (probabilistic connectivity)
-  thal_L6_TPC_L4_VPM_sTC:   0%|          | Creating synaptic connections for 0/1644 postsynaptic cells on node 0 (probabilistic connectivity)  thal_L6_TPC_L4_VPM_sTC: 100%|##########| Creating synaptic connections for 1644/1644 postsynaptic cells on node 0 (probabilistic connectivity)
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-AttributeError: 'Network' object has no attribute 'allCells'
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-AttributeError: 'Network' object has no attribute 'allCells'
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-AttributeError: 'Network' object has no attribute 'allCells'
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-AttributeError: 'Network' object has no attribute 'allCells'
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-AttributeError: 'Network' object has no attribute 'allCells'
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-AttributeError: 'Network' object has no attribute 'allCells'
-AttributeError: 'Network' object has no attribute 'allCells'
-AttributeError: 'Network' object has no attribute 'allCells'
-AttributeError: 'Network' object has no attribute 'allCells'
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-TypeError: 'int' object is not subscriptable
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-TypeError: 'int' object is not subscriptable
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-TypeError: 'int' object is not subscriptable
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-TypeError: 'int' object is not subscriptable
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-TypeError: 'int' object is not subscriptable
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-TypeError: 'int' object is not subscriptable
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-TypeError: 'int' object is not subscriptable
-TypeError: 'int' object is not subscriptable
-TypeError: 'int' object is not subscriptable
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 60, in prepareSpikeData
-    cells, cellGids, netStimLabels = getInclude(include)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/tools.py", line 78, in getInclude
-    allCells = sim.net.allCells
-AttributeError: 'Network' object has no attribute 'allCells'
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-TypeError: 'int' object is not subscriptable
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
-AttributeError: 'Network' object has no attribute 'allCells'
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/spikes.py", line 455, in prepareSpikeHist
-    figData['axisArgs']['ylabel'] = 'Number of spikes'
-TypeError: 'int' object is not subscriptable
-Traceback (most recent call last):
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/analysis/utils.py", line 75, in wrapper
-    return function(*args, **kwargs)
-  File "/home/fernando/miniconda3/envs/p39/lib/python3.9/site-packages/netpyne/plotting/plotSpikeFreq.py", line 242, in plotSpikeFreq
-    popNumCells = [max(spkInds)]
-UnboundLocalError: local variable 'spkInds' referenced before assignment
